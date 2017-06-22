@@ -9,7 +9,7 @@ public class Clinic {
     public String city;
     public String country;
     public String phone;
-
+    public String phone2;
 
     Clinic (String name){
 

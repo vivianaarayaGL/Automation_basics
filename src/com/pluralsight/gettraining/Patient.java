@@ -8,8 +8,8 @@ public class Patient {
 
     public int patientId; //pk
     public String name;
-    public String lastname;
-    public Date birthdate;
+    public String lastName;
+    public Date birthDate;
     public String phone;
     public String city;
     public String email;

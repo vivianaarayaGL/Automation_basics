@@ -23,8 +23,7 @@ public class Hospital {
 
 
 
-    public void addHospital(Hospital hospital){
-        hospitalList.add(hospital);
+    public void addHospital(Hospital hospital){hospitalList.add(hospital);
     }
 
     public Hospital selectHospital(int hospId){

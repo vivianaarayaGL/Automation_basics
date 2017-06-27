@@ -19,6 +19,16 @@ public class Patient {
         patientList.add(patient);
     }
 
+    public Patient(int patientId, String name, String lastName, Date birthDate, String phone, String city, String email) {
+        this.patientId = patientId;
+        this.name = name;
+        this.lastName = lastName;
+        this.birthDate = birthDate;
+        this.phone = phone;
+        this.city = city;
+        this.email = email;
+    }
+
     public Patient() {
     }
 
